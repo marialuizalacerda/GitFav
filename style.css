@@ -86,17 +86,17 @@ header {
   
 }
 
-.search button:hover  {
+.search button:hover {
   filter: brightness(1.1);
   background-color: var(--color-button-favoritar-hover);
   color: var(--color-button-favoritar);
 
   font-family: var(--ff-primary);
   font-weight: bold;
- 
+  
 }
 
-.svg:hover path {
+.search button:hover .svg path {
   fill: var(--color-button-favoritar);
 }
 
@@ -104,6 +104,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid var(--color-border);
+  border-spacing: 0;
   border-radius: 5rem;
 }
 
